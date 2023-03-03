@@ -1,0 +1,30 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#con {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: 10px solid #f70608;
+    border-bottom: 10px solid #f70608; 
+    color: #f70608; 
+
+}
+
+p {
+    color: #000;
+}
+
+#social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
