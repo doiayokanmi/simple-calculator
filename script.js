@@ -28,7 +28,7 @@ function substract() {
     var x = Number(document.getElementById('firstValue').value);
     var y = Number(document.getElementById('secondValue').value);
 
-    if (x == "" | y == "") {
+    if (x == "" || y == "") {
         document.getElementById('answer').innerHTML = "Invalid input, enter a number in both box";
     }
 
